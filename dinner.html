@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dinner Menu | FoodieHub</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-black fixed-top shadow-sm">
+  <div class="container position-relative">
+    <a class="navbar-brand position-absolute top-50 start-50 translate-middle fw-bold text-warning fs-1" href="./demo.html">
+      FoodieHub 🍕
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="./demo.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="./about.html">About</a></li>
+        <li class="nav-item dropdown">
+          <a class="nav-link active dropdown-toggle" href="./menu.html" data-bs-toggle="dropdown">Menu</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="./breakfast.html">Breakfast</a></li>
+            <li><a class="dropdown-item" href="./lunch.html">Lunch</a></li>
+            <li><a class="dropdown-item active" href="./dinner.html">Dinner</a></li>
+          </ul>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="./contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="bg-dark text-white text-center" style="margin-top:120px;">
+  <div class="container py-5">
+    <h1 class="display-5 fw-bold">Dinner Menu</h1>
+    <p class="lead mt-3">Perfect endings to your day 🌙</p>
+  </div>
+</section>
+
+<!-- DINNER CARDS -->
+<section class="py-5">
+  <div class="row g-4 justify-content-center">
+
+  <!-- Butter Naan & Curry -->
+  <div class="col-md-4 col-lg-3">
+    <div class="card h-100 shadow-sm border-0 text-center">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_k_Fo0nFTrNBBHrupIzSdUhYvl5FXls29Qw&s"
+           class="card-img-top" style="height:180px;object-fit:cover;">
+      <div class="card-body">
+        <h5 class="fw-semibold">Butter Naan & Curry</h5>
+        <p class="text-muted small">Soft naan with rich curry</p>
+        <span class="badge bg-warning text-dark fs-6">₹220</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Creamy Pasta -->
+  <div class="col-md-4 col-lg-3">
+    <div class="card h-100 shadow-sm border-0 text-center">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8Q7FOSz4ohOC9NYhdtSPcsBpmrAyRDPZcnA&s"
+           class="card-img-top" style="height:180px;object-fit:cover;">
+      <div class="card-body">
+        <h5 class="fw-semibold">Creamy Pasta</h5>
+        <p class="text-muted small">Italian style pasta</p>
+        <span class="badge bg-warning text-dark fs-6">₹180</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Cheese Pizza -->
+  <div class="col-md-4 col-lg-3">
+    <div class="card h-100 shadow-sm border-0 text-center">
+      <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38"
+           class="card-img-top" style="height:180px;object-fit:cover;">
+      <div class="card-body">
+        <h5 class="fw-semibold">Cheese Pizza</h5>
+        <p class="text-muted small">Oven baked & cheesy</p>
+        <span class="badge bg-warning text-dark fs-6">₹250</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Grilled Veg Sandwich -->
+  <div class="col-md-4 col-lg-3">
+    <div class="card h-100 shadow-sm border-0 text-center">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTabeGeEeGNc7vUhmNeck__KMLFTCWA6slewQ&s"
+           class="card-img-top" style="height:180px;object-fit:cover;">
+      <div class="card-body">
+        <h5 class="fw-semibold">Grilled Veg Sandwich</h5>
+        <p class="text-muted small">Toasted bread with fresh veggies</p>
+        <span class="badge bg-warning text-dark fs-6">₹160</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Veg Burger -->
+  <div class="col-md-4 col-lg-3">
+    <div class="card h-100 shadow-sm border-0 text-center">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIkBSO7WANp3QMwswyV0uAhw4oVTS8OnUcuQ&s"
+           class="card-img-top" style="height:180px;object-fit:cover;">
+      <div class="card-body">
+        <h5 class="fw-semibold">Veg Burger</h5>
+        <p class="text-muted small">Juicy patty with fresh toppings</p>
+        <span class="badge bg-warning text-dark fs-6">₹180</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Stir-Fried Veggies -->
+  <div class="col-md-4 col-lg-3">
+    <div class="card h-100 shadow-sm border-0 text-center">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7QEUKLljNpGDDITYCZ9re3hSNGCNOCfkPGA&s"
+           class="card-img-top" style="height:180px;object-fit:cover;">
+      <div class="card-body">
+        <h5 class="fw-semibold">Stir-Fried Veggies</h5>
+        <p class="text-muted small">Quick sautéed seasonal veggies</p>
+        <span class="badge bg-warning text-dark fs-6">₹150</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Veg Noodles -->
+  <div class="col-md-4 col-lg-3">
+    <div class="card h-100 shadow-sm border-0 text-center">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7gmsahguPTXKoE5Ay9BxMnpeJYHjl90uhEA&s"
+           class="card-img-top" style="height:180px;object-fit:cover;">
+      <div class="card-body">
+        <h5 class="fw-semibold">Veg Noodles</h5>
+        <p class="text-muted small">Chinese style stir-fried noodles</p>
+        <span class="badge bg-warning text-dark fs-6">₹170</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Veg Manchurian -->
+  <div class="col-md-4 col-lg-3">
+    <div class="card h-100 shadow-sm border-0 text-center">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXaGlVY68v-4YYjjF-5AIWwDsZGY9FJeTMZg&s"
+           class="card-img-top" style="height:180px;object-fit:cover;">
+      <div class="card-body">
+        <h5 class="fw-semibold">Veg Manchurian</h5>
+        <p class="text-muted small">Crispy vegetable balls in sauce</p>
+        <span class="badge bg-warning text-dark fs-6">₹200</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Veg Thali Dinner -->
+  <div class="col-md-4 col-lg-3">
+    <div class="card h-100 shadow-sm border-0 text-center">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2fkniLqpsGZJb2FZRMoumOFn-m8bhb2--Zw&s"
+           class="card-img-top" style="height:180px;object-fit:cover;">
+      <div class="card-body">
+        <h5 class="fw-semibold">Veg Thali</h5>
+        <p class="text-muted small">Full Indian dinner meal</p>
+        <span class="badge bg-warning text-dark fs-6">₹220</span>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+<footer class="bg-dark text-white text-center py-4">
+  <p class="mb-0">© 2025 FoodieHub. All Rights Reserved.</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

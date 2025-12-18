@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero {
+     background-image:
+        linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url("https://images.unsplash.com/photo-1504674900247-0877df9cc836");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.hero h1 {
+    font-size: 3rem; font-weight: bolder;
+}
+section.text-center {
+    background-color: #000;
+}
+
+section.text-center p {
+    max-width: 800px;
+    margin: auto;
+}
+
+.card {
+    border-radius: 15px;
+}
+.card-body {
+    min-height: 150px;
+    gap: 0.5rem;
+
+}
+.card-title {
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    line-height: 1.2;
+}
+.card:hover {
+    transform: translateY(-8px);
+    transition: 0.3s ease;
+}

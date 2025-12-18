@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Breakfast Menu | FoodieHub</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-black fixed-top shadow-sm">
+  <div class="container position-relative">
+
+    <a class="navbar-brand position-absolute top-50 start-50 translate-middle fw-bold text-warning fs-1"
+       href="./demo.html">
+      FoodieHub 🍕
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item"><a class="nav-link" href="./demo.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="./about.html">About</a></li>
+        <li class="nav-item dropdown">
+          <a class="nav-link active dropdown-toggle" href="./menu.html" role="button" data-bs-toggle="dropdown">
+            Menu
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item active" href="./breakfast.html">Breakfast</a></li>
+            <li><a class="dropdown-item" href="./lunch.html">Lunch</a></li>
+            <li><a class="dropdown-item" href="./dinner.html">Dinner</a></li>
+          </ul>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="./contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="bg-dark text-white text-center" style="margin-top:120px;">
+  <div class="container py-5">
+    <h1 class="display-5 fw-bold">Breakfast Menu</h1>
+    <p class="lead mt-3">Fresh mornings start here ☀️</p>
+  </div>
+</section>
+
+<!-- BREAKFAST CARDS -->
+<section class="py-5">
+  <div class="row g-4 justify-content-center">
+
+  <!-- Pancakes -->
+  <div class="col-md-4 col-lg-3">
+    <div class="card h-100 shadow-sm border-0 text-center">
+      <img src="https://images.unsplash.com/photo-1506084868230-bb9d95c24759"
+           class="card-img-top" style="height:180px; object-fit:cover;">
+      <div class="card-body">
+        <h5 class="fw-semibold">Pancakes</h5>
+        <p class="text-muted small">Soft pancakes with honey & butter</p>
+        <span class="badge bg-warning text-dark fs-6">₹120</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Veg Omelette -->
+  <div class="col-md-4 col-lg-3">
+    <div class="card h-100 shadow-sm border-0 text-center">
+      <img src="https://shivanilovesfood.com/wp-content/uploads/2025/02/Masala-Omelette-4-480x270.jpg"
+           class="card-img-top" style="height:180px; object-fit:cover;">
+      <div class="card-body">
+        <h5 class="fw-semibold">Veg Omelette</h5>
+        <p class="text-muted small">Eggs with fresh vegetables</p>
+        <span class="badge bg-warning text-dark fs-6">₹90</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast & Coffee -->
+  <div class="col-md-4 col-lg-3">
+    <div class="card h-100 shadow-sm border-0 text-center">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3IjNRdIgC8EO2AVIShyffU1d5kZyXnA20TA&s"
+           class="card-img-top" style="height:180px; object-fit:cover;">
+      <div class="card-body">
+        <h5 class="fw-semibold">Toast & Coffee</h5>
+        <p class="text-muted small">Crispy toast with hot coffee</p>
+        <span class="badge bg-warning text-dark fs-6">₹70</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Idli Sambar -->
+<div class="col-md-4 col-lg-3">
+  <div class="card h-100 shadow-sm border-0 text-center">
+    <img src="https://shwetainthekitchen.com/wp-content/uploads/2022/01/Idli-Sambar.jpg"
+         class="card-img-top" style="height:180px; object-fit:cover;" alt="Idli Sambar">
+    <div class="card-body">
+      <h5 class="fw-semibold">Idli Sambar</h5>
+      <p class="text-muted small">Steamed idli with hot sambar</p>
+      <span class="badge bg-warning text-dark fs-6">₹60</span>
+    </div>
+  </div>
+</div>
+
+  <!-- Masala Dosa -->
+  <div class="col-md-4 col-lg-3">
+    <div class="card h-100 shadow-sm border-0 text-center">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLzZI5WM63K-O5XUXFkXlRtmxeyDO1fw35Kg&s"
+           class="card-img-top" style="height:180px; object-fit:cover;">
+      <div class="card-body">
+        <h5 class="fw-semibold">Masala Dosa</h5>
+        <p class="text-muted small">Crispy dosa with potato filling</p>
+        <span class="badge bg-warning text-dark fs-6">₹80</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Poori Bhaji -->
+<div class="col-md-4 col-lg-3">
+  <div class="card h-100 shadow-sm border-0 text-center">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbCXZgkiCeObY29OEk8BtzoCkL7U277fh7Bw&s"
+         class="card-img-top" style="height:180px; object-fit:cover;" alt="Poori Bhaji">
+    <div class="card-body">
+      <h5 class="fw-semibold">Poori Bhaji</h5>
+      <p class="text-muted small">Fluffy poori with potato curry</p>
+      <span class="badge bg-warning text-dark fs-6">₹75</span>
+    </div>
+  </div>
+</div>
+
+  <!-- Sandwich -->
+  <div class="col-md-4 col-lg-3">
+    <div class="card h-100 shadow-sm border-0 text-center">
+      <img src="https://images.unsplash.com/photo-1528735602780-2552fd46c7af"
+           class="card-img-top" style="height:180px; object-fit:cover;">
+      <div class="card-body">
+        <h5 class="fw-semibold">Veg Sandwich</h5>
+        <p class="text-muted small">Fresh veggies with toasted bread</p>
+        <span class="badge bg-warning text-dark fs-6">₹65</span>
+      </div>
+    </div>
+  </div>
+
+  
+<!-- Upma -->
+<div class="col-md-4 col-lg-3">
+  <div class="card h-100 shadow-sm border-0 text-center">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSncnc8MeIjOfmOb54rmGFBFTqO7KHg-sEf0vPAeZqEUw&s"
+         class="card-img-top" style="height:180px; object-fit:cover;" alt="Upma">
+    <div class="card-body">
+      <h5 class="fw-semibold">Upma</h5>
+      <p class="text-muted small">Healthy semolina breakfast</p>
+      <span class="badge bg-warning text-dark fs-6">₹55</span>
+    </div>
+  </div>
+</div>
+
+  <!-- Fruit Bowl -->
+<div class="col-md-4 col-lg-3">
+  <div class="card h-100 shadow-sm border-0 text-center">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnLZhbOXDkWhEAPQDOVOWQt2VPdsfE6wePUA&s"
+         class="card-img-top" style="height:180px; object-fit:cover;" alt="Fruit Bowl">
+    <div class="card-body">
+      <h5 class="fw-semibold">Fruit Bowl</h5>
+      <p class="text-muted small">Fresh seasonal fruits</p>
+      <span class="badge bg-warning text-dark fs-6">₹85</span>
+    </div>
+  </div>
+</div>
+
+</div>
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-dark text-white text-center py-4">
+  <p class="mb-0">© 2025 FoodieHub. All Rights Reserved.</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
